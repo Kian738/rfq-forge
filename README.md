@@ -37,7 +37,7 @@ The package is site-agnostic: scenario values are supplied by the challenge run,
 
 ## Results
 
-Built collaboratively by **Kianmehr Karimi**, **[TizianGth](https://github.com/TizianGth)**, and **[Matin22](https://github.com/Matin22)** for the Atira EHL challenge. The team reached **2nd place at the EHL Grand Finale**, while the solution ranked **#1 on the private test leaderboard**.
+Built collaboratively by **Kianmehr Karimi**, **[TizianGth](https://github.com/TizianGth)**, **[Matin22](https://github.com/Matin22)**, and **Mateen Batt** (`[varialbe](https://github.com/varialbe)`) for the Atira EHL challenge. The team reached **2nd place at the EHL Grand Finale**, with the solution ranking **#1 on the private test leaderboard**.
 
 ## Quick start
 
