@@ -33,7 +33,11 @@ deterministic rules + pricing trace
 review validation → TAN → confirmed submission
 ```
 
-The package is intentionally site-agnostic: scenario values are supplied by the challenge run, while the agent contains generic navigation, extraction schemas, validation, and pricing logic.
+The package is site-agnostic: scenario values are supplied by the challenge run, while the agent contains generic navigation, extraction schemas, validation, and pricing logic.
+
+## Results
+
+Built collaboratively by **Kianmehr Karimi**, **[TizianGth](https://github.com/TizianGth)**, and **[Matin22](https://github.com/Matin22)** for the Atira EHL challenge. The team reached **2nd place at the EHL Grand Finale**, while the solution ranked **#1 on the private test leaderboard**.
 
 ## Quick start
 
@@ -43,7 +47,6 @@ Requirements: Python 3.12+, `uv`, and Chromium via Playwright.
 uv sync
 uv run playwright install chromium
 
-# Local scouting environment supplied by the Atira CLI
 eval "$(atira scout --env)"
 atira models proxy
 
@@ -53,14 +56,6 @@ uv run --no-sync pytest -q
 
 `--dry-run` prepares the workflow without making a binding submission. Runtime credentials and model keys must be supplied through environment variables; never commit them.
 
-## Validation
+## Provenance
 
-The latest package was validated in the Atira challenge with a quality-100 result, including the recorded `release/best-6m22` leaderboard submission. The current package revision is preserved from the project's latest `main` branch.
-
-## Collaboration
-
-Built collaboratively by **Kian** and **[Matin22](https://github.com/Matin22)**, with a strong focus on reliability, evidence provenance, deterministic calculations, and safe browser automation.
-
-## License
-
-See the upstream project for licensing and challenge-specific terms.
+This portfolio copy is derived from the latest `main` package in [`TizianGth/isar-labs-ehl`](https://github.com/TizianGth/isar-labs-ehl/tree/main/agent). The upstream repository contains the original challenge context and development history.
